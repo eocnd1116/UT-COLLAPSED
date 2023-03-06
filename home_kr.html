@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UT:COLLAPSED</title>
+
+    <style>
+        body { background-color: #000000; color : #b0b0b0}
+        @font-face {
+            font-family: "DeterminationSansK";
+            src: url("font/ThisIsFontButKR.ttf") format("truetype");
+            font-weight: normal;
+        }
+        * {
+            font-family: 'DeterminationSansK', serif;
+        }
+        .centerText {
+            font-size : 25px;
+        }
+        .bigText {
+            font-size : 40px;
+            display: inline;
+            margin-top:54px;
+            margin-left: 40px;
+            margin-right: 40px;
+            cursor: pointer;
+        }
+        .bigText:hover {
+            color:#ffffff;
+        }
+        #nowColor {
+            color:#ffffff;
+        }
+
+        .subText {
+            font-size : 30px;
+            text-align: center;
+        }
+        .subImage {text-align: center;
+            display : flex;
+            margin: 0px auto
+        }
+
+        .EN {
+            position : absolute;
+            left : 10px;
+            top : 5px;
+        }
+
+        .KR {
+            position : absolute;
+            left : 10px;
+            top : 35px;
+        }
+        
+        ul {
+            text-align: center;
+        }
+        li {
+            display: inline-block;
+        }
+    </style>
+
+    <script>
+        function btHome()  {
+            alert('This is Home');
+        }
+        function btAbort()  {
+            alert('This is Abort');
+        }
+        function btHelp()  {
+            alert('This is Help');
+        }
+        function btCredits()  {
+            alert('This is Credits');
+        }
+        function btEN()  {
+            location.href="home_en.html";
+        }
+        function btKR()  {
+            location.href="home_kr.html";
+        }
+    </script>
+</head>
+<body>
+    <ul>
+        <li class="bigText" id="nowColor" type="none" onclick='btHome()'>집</li>
+        <li class="bigText" type="none" onclick='btAbort()'>중단</li>
+        <li class="bigText" type="none" onclick='btHelp()'>돕다</li>
+        <li class="bigText" type="none" onclick='btCredits()'>학점</li>
+    </ul>
+
+    <img class="EN" src="image/ThisIsEN.png" onclick='btEN()'></img>
+    <img class="KR" src="image/ThisIsKOR.png" onclick='btKR()'></img>
+
+    <hr><br><br><br>
+
+    <img class="subImage" src="image/Logo.png"></img><br>
+    <div class="subText"><br><br><br><br>이 게임은 UNDERTALE을 기반으로 하는 팬게임입니다.<br><br>원래라면 이 게임의 부제목은 INSANITY였지만 여러 이유로 COLLAPSED가 되었는데요,<br><br>이름 그대로 가스터의 개입으로 타임라인이 붕괴하면서 일어나는 일들을 다룹니다.<br><br><br><br><br><br><br></div>
+    <div class="subText">샌즈는 어느날 가스터를 만나게 되고 모든 타임라인의 기억을 가지게 됩니다.<br><br>프리스크, 아니 플레이어의 만행들을 모두 알게된 샌즈는 인간을 갈기갈기 찢기 위해 준비를 시작합니다.<br><br><br><br><br><br><br></div>
+    <div class="subText">가장 먼저 샌즈는 폐허의 괴물들을 이용합니다.<br><br>샌즈는 괴물들에게 교묘한 가스라이팅을 하며 인간에게 적대심을 품게하였습니다.<br><br>그로인해 몬스터들은 인간을 더욱 공격적으로 대할것입니다.<br><br>하지만 공격적으로 대한다고, 해할필요는 없습니다.<br><br>행동을 통하여 괴물들 다시 설득하고 진정시켜 그들에게 자비를 배풀어 아무도 죽이지도, 죽지도 않고 이 '게임'을 이길 수 있습니다.<br><br>그것은 과연 샌즈도 마찬가지일까요?</div>
+    <div class="subText">아니요.<br><br><br><br><br><br><br></div>
+    <div class="subText">샌즈는 토리엘을 죽이고 스노우딘으로 가는 그 문에서 피를 갈며 기다리고 있습니다.<br><br>당신은 그런 샌즈의 공격들을 피하며 쓰러트려야합니다.<br><br><br><br><br><br><br></div>
+    <div class="subText">.<br><br><br>.<br><br><br>.<br><br><br>.<br><br><br>.<br><br><br>.<br><br><br>.<br><br><br>.<br><br><br>.<br><br><br>.<br><br><br>.<br><br><br>.<br><br><br>.<br><br><br>.<br><br><br>.<br><br><br>.<br><br><br>.<br><br><br>.<br><br><br>.<br><br><br>.<br><br><br>.<br><br><br><br><br><br><br></div>
+    <div class="subText">샌즈의 눈을 피한 곳은 언제나 존재하기 마련이고 그 곳에는 중간보스격인 슈퍼 몬스터가 있습니다.<br><br>일반 몬스터보다 *압도적으로* 강력한 이 몬스터는 당신에게 사랑의 LV를 줄것입니다.<br><br>샌즈를 깨는 것이 어렵다면 그것들을 학살하는 것도 좋은 방법일겁니다.<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+</body>
+</html>
